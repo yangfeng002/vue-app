@@ -1,0 +1,5 @@
+@charset "UTF-8";
+/* 防止渲染的时候闪屏 */
+[v-cloak]{
+	display: none;
+}

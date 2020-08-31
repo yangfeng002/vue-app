@@ -1,0 +1,89 @@
+@import "common.scss";
+/**
+ * 底部导航样式设置
+ */
+.nav-bottom{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	margin-left: -8px;
+	background:#F9F9F9;
+	border-top:1px solid #f4f4f4;
+	padding-top: 5px;
+	>a{
+		display: inline-block;
+		width: 25%;
+		float: left;
+		text-decoration: none;
+		text-align:center;
+	}
+	i{
+		font-size: 22px;
+	}
+	label{
+		display: block;
+	}
+	
+}
+/* 首页样式 */
+.home{
+	 //position: relative;
+	 margin-bottom: 70px;
+	.index-category{
+		.category{
+			display: inline-block;
+			min-width: 100px;
+			padding: 10px;
+			.iconfont{
+				font-size: 25px;
+				display: inline-block;
+				padding: 10%;
+				border-radius: 50%;
+			}
+		}
+	}
+	.banner{
+		position: relative;
+		img{
+			width: 100%;
+		}
+		.banner-circle{
+			position: absolute;
+			right: 0;
+			left: 0;
+			bottom: -10px;
+			text-align: center;
+		  ul{
+			  list-style-type:circle;
+			  display: inline-block;
+			  li{  
+				  font-size: 25px;
+				  float:left;
+				  width:20px;
+				  &.selected{
+					  list-style-type: disc;
+				  }
+			  }
+		  }	
+		  
+		 
+		}
+	}
+	.index-main{
+		li{
+			list-style: none;
+		}
+		label{
+			display: block;
+			margin-bottom: 20px;
+			.discount{
+				color: #d61e1e;
+				padding: 5px;
+			}
+			.price-text{
+				text-decoration: line-through;
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+  "id": "1961402",
+  "name": "vue-app",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "vue手机网站项目",
+  "glyphs": [
+    {
+      "icon_id": "806194",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "880167",
+      "name": "首页",
+      "font_class": "shouyeshouye",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "8501000",
+      "name": "订单",
+      "font_class": "ding_huabanfuben",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "9148716",
+      "name": "发现",
+      "font_class": "faxian",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    }
+  ]
+}
